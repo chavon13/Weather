@@ -4,7 +4,7 @@ Weather widget application with city celsius and time.
 
 body {
     justify-content: center;
-    align-items: center;
+    align-items:center;
     height: 100vh;
     margin: 0;
 	font-family: 'Open Sans', sans-serif;
@@ -12,10 +12,9 @@ body {
 	background-image: url('https://source.unsplash.com/1600x900/?nature,water;');
 	font-size: 120%;
 }
-h1.channel_name {
+.header {
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        top: 10px;
-        left: 50px;
+        text-align: center;
         z-index: 50px;
         font-size: 40px;
         padding-top: 50px;
