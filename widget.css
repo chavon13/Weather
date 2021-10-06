@@ -31,12 +31,17 @@ body {
     margin: 1em;
 }
 .search {
+  first_pro_oct4
 	display:inline-flex;
 	align-items: center;
 	justify-content: center;
+  
+	display: flex;
+	align-items:flex-end;
+    justify-content:flex-start;
 }
 input.search-bar {
-	display: flex;
+	
     border: none;
     outline: none;
     padding: 0.5em 1em;
@@ -72,3 +77,30 @@ button {
         font-size: 25px;
     }
 }
+
+page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
+
+
+footer {
+  background-color:();
+  position:();
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
