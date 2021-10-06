@@ -3,9 +3,8 @@ Weather widget application with city celsius and time.
 */
 
 body {
-    display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     height: 100vh;
     margin: 0;
 	font-family: 'Open Sans', sans-serif;
@@ -13,24 +12,21 @@ body {
 	background-image: url('https://source.unsplash.com/1600x900/?nature,water;');
 	font-size: 120%;
 }
-.channel_name {
-        position: absolute;
+.header {
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        top: 10px;
-        left: 60px;
+        text-align: center;
         z-index: 50px;
         font-size: 40px;
-        padding-top: 30px;
+        padding-top: 50px;
         color: antiquewhite;
         text-shadow:0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
 }
 .card {
-	display: flex;
-	flex-direction: column;
+    
     background: #000000d0;
 	color: white;
     padding: 2em;
-    border-radius: 30px;
+    border-radius: 50px;
     width: 100%;
     max-width: 420px;
     margin: 1em;
@@ -105,3 +101,7 @@ footer {
   color: white;
 }
 
+/* .mainContent{
+    display:flex;
+    flex-direction: column;
+} */
