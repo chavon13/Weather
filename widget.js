@@ -2,14 +2,14 @@ let zip = document.querySelector("#zipcode");
 let button = document.getElementById("submit")
 let temp = document.querySelector("#temp");
 let city = document.querySelector(".city");
-let humidity = document.querySelector(".humidity")
-let description = document.querySelector("#description")
-let wind = document.querySelector(".wind")
+let humidity = document.querySelector(".humidity");
+let description = document.querySelector("#description");
+let wind = document.querySelector(".wind");
 
 
 // function weatherBalloon( zipCode ) {
-//     const key = '46fbf048ea77cec3537a94244ec91020';
-//     fetch('https://api.openweathermap.org/data/2.5/weather?zip='+zipCode+'&units=imperial'+'&appid=46fbf048ea77cec3537a94244ec91020')  
+//     const key
+//     fetch('https://api.openweathermap.org/data/2.5/weather?zip='+zipCode+'&units=imperial'+'&appid=${apiKEY}')  
 //     // .then( => response.json())
 //     .then(function(resp) { 
 //         let formattedData = resp.json();
@@ -24,7 +24,7 @@ let wind = document.querySelector(".wind")
 // }
 
 const weatherBalloon2 = async (zipcode) => {
-    const data = await fetch('https://api.openweathermap.org/data/2.5/weather?zip='+zipcode+'&units=imperial'+'&appid=46fbf048ea77cec3537a94244ec91020')
+    const data = await fetch(`https://api.openweathermap.org/data/2.5/weather?zip=${zipcode}&units=imperial&appid=${apiKey}`)
     console.log(data);
     const formattedData = await data.json();
     console.log(formattedData);
