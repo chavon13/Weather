@@ -31,7 +31,7 @@ body {
     margin: 1em;
 }
 .search {
-	display: flex;
+	display:inline-flex;
 	align-items: center;
 	justify-content: center;
 }
@@ -47,9 +47,7 @@ input.search-bar {
     font-size: 105%;
 	width: calc(100% - 100px);
 }
-.button hover {
-    background: #7c7c7c6b;
-}
+
 h1.temp {
 	margin: 0;
 }
