@@ -22,7 +22,6 @@ body {
         text-shadow:0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
 }
 .card {
-    
     background: #000000d0;
 	color: white;
     padding: 2em;
@@ -32,12 +31,17 @@ body {
     margin: 1em;
 }
 .search {
-	display: flex;
+  first_pro_oct4
+	display:inline-flex;
 	align-items: center;
 	justify-content: center;
+  
+	display: flex;
+	align-items:flex-end;
+    justify-content:flex-start;
 }
 input.search-bar {
-	display: flex;
+	
     border: none;
     outline: none;
     padding: 0.5em 1em;
@@ -48,9 +52,7 @@ input.search-bar {
     font-size: 105%;
 	width: calc(100% - 100px);
 }
-.button hover {
-    background: #7c7c7c6b;
-}
+
 h1.temp {
 	margin: 0;
 }
@@ -101,7 +103,4 @@ footer {
   color: white;
 }
 
-/* .mainContent{
-    display:flex;
-    flex-direction: column;
-} */
+
