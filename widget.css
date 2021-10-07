@@ -1,3 +1,4 @@
+
 /*
 Weather widget application with city celsius and time. 
 */
@@ -72,6 +73,30 @@ button {
     h1 {
         font-size: 25px;
     }
+}
+
+
+.side_bar {
+    height: 100%;
+    width: 150px;
+    position: absolute;
+    right: 0;
+    top:0;
+    padding-top: 40px;
+    background-color: rgb(33, 41, 44);
+}
+
+a {
+    display: block;
+    padding: 2% 4%;
+    text-decoration: none;
+    color:blanchedalmond;
+    font-size: 1.4em;
+
+}
+
+h3{
+    color: plum;
 }
 
 page-container {
