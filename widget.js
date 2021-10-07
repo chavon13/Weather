@@ -43,9 +43,6 @@ const weatherBalloon2 = async (zipcode) => {
 //weatherBallon2(30096);
 
 
-
-
-
 button.addEventListener("click", (evt) => {
     evt.preventDefault();
 console.log(zip);
