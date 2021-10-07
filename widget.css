@@ -32,11 +32,11 @@ body {
     margin: 1em;
 }
 .search {
-  first_pro_oct4
+
 	display:inline-flex;
 	align-items: center;
 	justify-content: center;
-  
+
 	display: flex;
 	align-items:flex-end;
     justify-content:flex-start;
@@ -106,26 +106,26 @@ h3{
 page-container {
     position: relative;
     min-height: 100vh;
-  }
-  
+}
+
 content-wrap {
     padding-bottom: 2.5rem;    /* Footer height */
-  }
-  
-  footer {
+}
+
+footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 2.5rem;            /* Footer height */
-  }
+}
 
 
 footer {
-  background-color:();
-  position:();
-  padding: 10px;
-  text-align: center;
-  color: white;
+background-color:();
+position:();
+padding: 10px;
+text-align: center;
+color: white;
 }
 
 
