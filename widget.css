@@ -107,3 +107,7 @@ footer {
   text-align: center;
   color: orange;
 }
+.center {
+    margin: auto;
+    width: 50%;
+  }
