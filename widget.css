@@ -92,7 +92,7 @@ page-container {
 content-wrap {
     padding-bottom: 2.5rem;    /* Footer height */
 }
-  
+
 footer {
     position: absolute;
     bottom: 0;
@@ -107,4 +107,7 @@ padding: 10px;
 text-align: center;
 color: orange;
 }
+
+
+
 
