@@ -4,7 +4,6 @@ Weather widget application with city celsius and time.
 */
 
 body {
-    
     justify-content: center;
     align-items:center;
     height: 100vh;
@@ -84,26 +83,23 @@ a {
     font-size: 1.4em;
 
 }
-
 h3{
     color: plum;
 }
 page-container {
     position: relative;
     min-height: 100vh;
-  }
+}
   
 content-wrap {
     padding-bottom: 2.5rem;    /* Footer height */
-  }
-  
+} 
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 2.5rem;            /* Footer height */
 }
-
 footer {
   background-color:();
   position:();
