@@ -7,22 +7,6 @@ let description = document.querySelector("#description");
 let wind = document.querySelector(".wind");
 
 
-// function weatherBalloon( zipCode ) {
-//     const key
-//     fetch('https://api.openweathermap.org/data/2.5/weather?zip='+zipCode+'&units=imperial'+'&appid=${apiKEY}')  
-//     // .then( => response.json())
-//     .then(function(resp) { 
-//         let formattedData = resp.json();
-//         console.log(formattedData);
-//         return formattedData}) 
-//     .then(function(data) {
-//             drawWeather(data);
-// })
-//     /*.catch(function(error) {
-//         console.log(error)
-//     });*/
-// }
-
 const weatherBalloon2 = async (zipcode) => {
     try{
         const data = await fetch(`https://api.openweathermap.org/data/2.5/weather?zip=${zipcode}&units=imperial&appid=${apiKey}`)
@@ -45,7 +29,6 @@ const weatherBalloon2 = async (zipcode) => {
     console.log(error)
 alert("Please enter a zip Code.")}
 }
-//weatherBallon2(30096);
 
 
 button.addEventListener("click", (evt) => {
