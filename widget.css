@@ -66,14 +66,13 @@ button {
 	cursor:pointer;
 	transition: 0.2s ease-in-out;
 }
-.side_bar {
-    height: 100%;
-    width: 150px;
-    position: absolute;
-    right: 0;
-    top:0;
-    padding-top: 40px;
-    background-color: rgb(33, 41, 44);
+@media screen and (max-device-width: 480px) {
+    body {
+        height: 120%;
+    }
+    h1 {
+        font-size: 25px;
+    }
 }
 
 a {
@@ -85,17 +84,14 @@ a {
 
 }
 
-h3{
-    color: plum;
-}
 page-container {
     position: relative;
     min-height: 100vh;
-  }
-  
+}
+
 content-wrap {
     padding-bottom: 2.5rem;    /* Footer height */
-  }
+}
   
 footer {
     position: absolute;
@@ -105,9 +101,10 @@ footer {
 }
 
 footer {
-  background-color:();
-  position:();
-  padding: 10px;
-  text-align: center;
-  color: orange;
+background-color:();
+position:();
+padding: 10px;
+text-align: center;
+color: orange;
 }
+
