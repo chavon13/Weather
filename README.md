@@ -5,7 +5,7 @@
 - HTML
 - API's
 - Unsplashed.com
-- Git commands to push, pull, merge and save
+- Git commands to push, pull, merge and track the work
 
 
 #This project was created with the languages listed above. 
