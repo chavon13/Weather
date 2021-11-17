@@ -27,7 +27,7 @@
 - Internationalization support for localization of the application's
   user-visible text
 
-#TEAM LEAD and TEAMMATES' FEEDBACK
+#TEAM LEAD and TEAMMATES' FEEDBACK and SOLUTIONS
 
 The weather widget project was a lot of fun to work on.  When we started the project we were not sure where or how to start but, we worked as a team to break the project down into manageable pieces.  This made it easier to think through what we needed to do and made the project easier complete.
 One of the difficulties we faced was putting everything together. We had some problems with Git and pushing and pulling the project. A lot of Git mistakes were made, but in the end we overcame them by learning git like the back of our hands. Some of the process was trial and error, but we were lucky to have exceptional people who were willing to help and teach us.
