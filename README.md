@@ -33,7 +33,7 @@ The weather widget project was a lot of fun to work on.  When we started the pro
 One of the difficulties we faced was putting everything together. We had some problems with Git and pushing and pulling the project. A lot of Git mistakes were made, but in the end we overcame them by learning git like the back of our hands. Some of the process was trial and error, but we were lucky to have exceptional people who were willing to help and teach us.
 That’s not all. I forgot to push the shift before I hit enter.
 
--
+- Another difficulty we had was the API. Finding the right logic that worked for us was not easy. The first method we tried would not actually load the weather so we had a widget but no weather. After realizing that the method that we were using was not working we learned an entirely new method (async await)  and we finally got the API up and running.
 
 
 
